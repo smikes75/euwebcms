@@ -17,8 +17,10 @@ import { RAIDSystemsPage } from './pages/services/RAIDSystemsPage';
 import { BusinessSolutionsPage } from './pages/services/BusinessSolutionsPage';
 import { BlogPage } from './pages/BlogPage';
 import { BlogPostPage } from './pages/blog/BlogPostPage';
+import { PrivacyPage } from './pages/PrivacyPage';
 import { useTranslation } from 'react-i18next';
-
+import { TermsPage } from './pages/TermsPage';
+import { CookiesPage } from './pages/CookiesPage';
 function App() {
   const { t } = useTranslation();
   
@@ -40,9 +42,12 @@ function App() {
               <Route path="/technology" element={<TechnologyPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/pricing" element={<PricingPage />} />
+              <Route path="/terms" element={<TermsPage />} />
               <Route path="/faq" element={<FAQPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
+              <Route path="/privacy" element={<PrivacyPage />} />
+              <Route path="/cookies" element={<CookiesPage />} />
             </Routes>
           </main>
           <Footer />

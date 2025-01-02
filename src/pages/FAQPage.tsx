@@ -11,7 +11,7 @@ export function FAQPage() {
       <PageHeader
         title={t('faq.title')}
         subtitle={t('faq.subtitle')}
-        backgroundImage="about-bg.jpg"
+        backgroundImage="faq-bg.jpg"
       />
       
       <div className="container mx-auto px-4 py-16">

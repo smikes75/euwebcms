@@ -367,5 +367,105 @@ export const cs = {
     terms: 'Obchodní podmínky',
     cookies: 'Cookies',
     legal: 'Právní informace'
+  },
+  privacy: {
+  title: 'Ochrana osobních údajů',
+  subtitle: 'Informace o zpracování a ochraně vašich osobních údajů',
+  dataProtection: {
+    title: 'Ochrana dat',
+    content: 'Vaše osobní údaje zpracováváme v souladu s GDPR a platnou legislativou. Používáme nejmodernější technologie a postupy pro zajištění maximální bezpečnosti vašich dat. Veškeré údaje jsou uchovávány na zabezpečených serverech v EU.'
+  },
+  security: {
+    title: 'Bezpečnostní opatření',
+    content: 'Implementujeme přísná bezpečnostní opatření včetně šifrování dat, kontroly přístupu a pravidelných bezpečnostních auditů. Naši zaměstnanci jsou pravidelně školeni v oblasti ochrany osobních údajů a jsou vázáni mlčenlivostí.'
+  },
+  transparency: {
+    title: 'Transparentnost',
+    content: 'Jsme maximálně transparentní ohledně způsobu, jakým zpracováváme vaše osobní údaje. Shromažďujeme pouze údaje nezbytné pro poskytování našich služeb a nikdy je neprodáváme třetím stranám. Vaše data používáme výhradně pro účely, ke kterým jste nám dali souhlas.'
+  },
+  rights: {
+    title: 'Vaše práva',
+    content: 'Máte právo na přístup ke svým osobním údajům, jejich opravu nebo výmaz, právo na omezení zpracování a právo vznést námitku proti zpracování. Také máte právo na přenositelnost údajů a právo podat stížnost u dozorového úřadu.'
+  },
+  contact: {
+    title: 'Kontakt pro ochranu osobních údajů',
+    content: 'V případě jakýchkoliv dotazů ohledně zpracování vašich osobních údajů nás můžete kontaktovat:',
+    address: 'Adresa'
+  },
+    },
+  terms: {
+  title: 'Obchodní podmínky',
+  subtitle: 'Všeobecné obchodní podmínky společnosti DataHelp',
+  lastUpdated: 'Poslední aktualizace: 1. března 2024',
+  sections: {
+    general: {
+      title: 'Obecná ustanovení',
+      content: 'Tyto všeobecné obchodní podmínky upravují vztahy mezi společností DataHelp s.r.o. a jejími zákazníky při poskytování služeb záchrany dat.'
+    },
+    services: {
+      title: 'Poskytované služby',
+      content: 'Společnost poskytuje služby záchrany dat z poškozených datových nosičů. Součástí služeb je diagnostika, záchrana dat a jejich bezpečné předání zákazníkovi.'
+    },
+    pricing: {
+      title: 'Ceny a platby',
+      content: 'Ceny služeb se řídí aktuálním ceníkem. Zákazník platí pouze za úspěšnou záchranu dat. Diagnostika je zdarma.'
+    },
+    warranty: {
+      title: 'Záruky',
+      content: 'Společnost garantuje maximální úsilí při záchraně dat. Neručíme za data, která není možné zachránit z důvodu jejich fyzického poškození.'
+    },
+    confidentiality: {
+      title: 'Důvěrnost',
+      content: 'Zavazujeme se k absolutní mlčenlivosti o všech datech a informacích získaných při poskytování služeb.'
+    },
+    complaints: {
+      title: 'Reklamace',
+      content: 'Případné reklamace služeb řešíme individuálně s maximální snahou o spokojenost zákazníka. Reklamaci lze uplatnit do 30 dnů.'
+    }
   }
+},
+  cookies: {
+  title: 'Zásady používání cookies',
+  subtitle: 'Informace o používání cookies na našich stránkách',
+  lastUpdated: 'Poslední aktualizace: 1. března 2024',
+  sections: {
+    what: {
+      title: 'Co jsou cookies',
+      content: 'Cookies jsou malé textové soubory, které se ukládají do vašeho prohlížeče při návštěvě našich stránek. Pomáhají nám zajistit základní funkčnost webu, analyzovat návštěvnost a přizpůsobit obsah vašim potřebám.'
+    },
+    types: {
+      title: 'Typy cookies',
+      necessary: {
+        title: 'Nezbytné cookies',
+        content: 'Tyto cookies jsou nutné pro správné fungování webu. Nelze je vypnout.'
+      },
+      analytical: {
+        title: 'Analytické cookies',
+        content: 'Pomáhají nám pochopit, jak návštěvníci používají web. Všechna data jsou anonymizována.'
+      },
+      functional: {
+        title: 'Funkční cookies',
+        content: 'Umožňují lepší funkčnost a personalizaci webu.'
+      }
+    },
+    usage: {
+      title: 'Jak používáme cookies',
+      content: 'Cookies používáme pro:',
+      purposes: [
+        'Zajištění základní funkčnosti webu',
+        'Analýzu návštěvnosti a chování uživatelů',
+        'Zlepšování našich služeb',
+        'Zapamatování vašich preferencí'
+      ]
+    },
+    control: {
+      title: 'Správa cookies',
+      content: 'Cookies můžete spravovat nebo zakázat v nastavení vašeho prohlížeče. Vypnutí některých cookies však může omezit funkčnost našeho webu.'
+    },
+    consent: {
+      title: 'Váš souhlas',
+      content: 'Používáním našeho webu souhlasíte s používáním cookies v souladu s těmito zásadami.'
+    }
+  }
+}
 };
